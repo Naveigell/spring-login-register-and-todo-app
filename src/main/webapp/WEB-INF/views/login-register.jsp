@@ -77,10 +77,10 @@
             <form action="/login" method="post">
                 <sec:csrfInput/>
                 <div class="form-group">
-                    <input type="text" name="email" class="form-control" placeholder="Your Email *" value="aruna_rosa400@yahoo.co.id" />
+                    <input type="text" name="email" class="form-control" placeholder="Your Email *" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="password" name="password" class="form-control" placeholder="Your Password *" value="123456" />
+                    <input type="password" name="password" class="form-control" placeholder="Your Password *" value="" />
                 </div>
                 <core:if test="${loginMessage != null}">
                     <div class="form-group">
